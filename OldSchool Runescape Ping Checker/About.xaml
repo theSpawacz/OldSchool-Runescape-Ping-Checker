@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="About" Height="300" Width="300">
     <Grid Margin="0,0,8,0">
-        <TextBlock x:Name="tbVersion" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="272" IsEnabled="False"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="130" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" Source="Resources/download-260x146.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="TBVersion" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="272" IsEnabled="False"/>
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="130" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" Source="Resources/download-260x146.jpg" Stretch="Fill"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" Height="40" IsEnabled="False" ><Run Text="Created by Maciej Stępień aka TheSpawacz 2019r."/><LineBreak/><Run Text="E-Mail: klatka25@gmail.com"/></TextBlock>
-        <Button x:Name="button" Content="Visit my Youtube chanell!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="272" Margin="10,211,0,0" Click="button_Click"/>
-        <Button x:Name="button1" Content="Close" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Width="272" Click="button1_Click"/>
+        <Button x:Name="ButtonYT" Content="Visit my Youtube chanell!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="272" Margin="10,211,0,0" Click="ButtonYT_Click" />
+        <Button x:Name="ButtonClose" Content="Close" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Width="272" Click="ButtonClose_Click" />
 
     </Grid>
 </Window>

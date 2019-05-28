@@ -27,17 +27,19 @@ namespace OldSchool_Runescape_Ping_Checker
         }
         void Version()
         {
-            tbVersion.Text = "Version:" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            TBVersion.Text = "Version:" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
+        
 
-            this.Close();
-        }
-                
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void ButtonYT_Click(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.youtube.com/user/2770955");
+
+        }
+
+        private void ButtonClose_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

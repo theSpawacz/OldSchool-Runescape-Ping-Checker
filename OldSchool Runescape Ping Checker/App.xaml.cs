@@ -15,6 +15,10 @@ namespace OldSchool_Runescape_Ping_Checker
     {
 
         public App() => Startup += new StartupEventHandler(App_Startup);
-        void App_Startup(object sender, StartupEventArgs e) => OldSchool_Runescape_Ping_Checker.MainWindow.Instance.Show();
+        void App_Startup(object sender, StartupEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+        }
     }
 }
