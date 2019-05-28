@@ -20,6 +20,14 @@ namespace OldSchool_Runescape_Ping_Checker
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow Instance { get; private set; }
+
+
+        //Inicjalizacja i magia
+        static MainWindow()
+        {
+            Instance = new MainWindow();
+        }
         public MainWindow()
         {
             InitializeComponent();

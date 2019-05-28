@@ -1,0 +1,66 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                    
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+
+    <!-- MenuButtons-->
+    <system:String x:Key="MenuLanguage">Language</system:String>
+    <system:String x:Key="MenuFile">File</system:String>
+    <system:String x:Key="MenuHelp">Help</system:String>
+    <system:String x:Key="MenuSelect">Select Zen</system:String>
+    <system:String x:Key="MenuLoad">Load Zen</system:String>
+    <system:String x:Key="MenuSave">Save changes</system:String>
+    <system:String x:Key="MenuHelpShow">Show help</system:String>
+    <system:String x:Key="MenuInfo">Info</system:String>
+    <system:String x:Key="MenuClose">Close</system:String>
+
+    <!-- Main content-->    
+    
+        
+        <system:String x:Key="WorkingLabel">Working with:</system:String>
+    
+
+        <!-- Tabs -->
+        <system:String x:Key="TabHeader1">Zen to fix</system:String>
+        <system:String x:Key="TabHeader2">Magic stuff</system:String>
+        <system:String x:Key="TabHeader3">Final Output</system:String>
+    
+        <!-- TextBox Buttons -->
+        <system:String x:Key="LocationTbox">Select uncompiled zen file</system:String>
+
+    <!-- Magic stuff -->
+
+        <!-- Magic stuff buttons -->
+        <system:String x:Key="ButtonFindAllVobs">Find all vobs in zen</system:String>
+        <system:String x:Key="ButtonAllVobsToNonStatic">Change vobs to non static</system:String>
+        <system:String x:Key="ButtonAllVobsToStatic">Change vobs to static</system:String>
+        <system:String x:Key="ButtonRemoveChilds">Remove child trees aka parent killer xd</system:String>
+
+        <!-- Radio buttons -->
+        <system:String x:Key="RadioAllVobs">All found vobs</system:String>
+        <system:String x:Key="RadioSelectVobs">Only selected vobs</system:String>
+        
+        <!-- CheckBoxes-->
+        <system:String x:Key="CBIncludeMap">Include map</system:String>
+        <system:String x:Key="CBIncludeWaypoints">Include waypoints</system:String>
+
+        <!-- Labels and texts-->
+
+        
+        <system:String x:Key="LabelVobsFoundCountCore">Found vobs: </system:String>        
+        <system:String x:Key="MagicTabGruped">Vobs gruped</system:String>
+        <system:String x:Key="MagicTabSolo">Vobs solo</system:String>
+
+        <!-- ListView-->
+        <system:String x:Key="ListViewHeaderVName">Vob name</system:String>
+        <system:String x:Key="ListViewHeaderVType">Vob type</system:String>
+        <system:String x:Key="ListViewHeaderVModelVisual">Vob visual</system:String>
+
+    <!-- Message Boxes-->
+    <system:String x:Key="MBoxNoData">No data loaded!</system:String>
+    <system:String x:Key="MBoxInfo">Made for Dzieje Khorinis by TheSpawacz 2019 </system:String>
+    <system:String x:Key="MboxNotImplemented">This function is still not implemented. Sorry :(</system:String>
+    <system:String x:Key="MboxOnlyUncompiled">Only uncompiled zen moron!!</system:String>
+    <system:String x:Key="MboxSelectFileLoad">Are you sure you choose file to fix??</system:String>
+
+</ResourceDictionary>
